@@ -2,13 +2,6 @@
 	import { onMount } from "svelte";
 	import Icon from "./components/icon.svelte";
 
-    let banana = "mum"
-    let luke_broken = ["arm", "legs", "Jethro"]
-    // Look at me this is comment
-    let me = "me"
-    const changetext = () => {
-        me = "Yourself"
-    }
     let state_loading = false
     let result
     let search_stuff = ""
